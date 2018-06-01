@@ -16,11 +16,15 @@ define('COOKIE_DOMAIN', 'www.focuzz.com.br'); // Added by W3 Total Cache
  * @package WordPress
  */
 
-// define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJLDKY5KEQHHNQKNQ' );
-// define( 'DBI_AWS_SECRET_ACCESS_KEY', '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');
-define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJAHPLGFD63EDAIMQ');
-define( 'DBI_AWS_SECRET_ACCESS_KEY', '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');
+//define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJLDKY5KEQHHNQKNQ' );
+//define( 'DBI_AWS_SECRET_ACCESS_KEY', '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');
+//define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJAHPLGFD63EDAIMQ');
+//define( 'DBI_AWS_SECRET_ACCESS_KEY', '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');
 
+//define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAIUZAS56GQZASMZQQ');
+//define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
+define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAIZXJJ6HDQQDWFHNA' );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
 /** Enable W3 Total Cache */
 define('WP_CACHE', true); // Added by W3 Total Cache
 
@@ -35,7 +39,8 @@ define('DB_USER', 'sergiomatiuzzo');
 define('DB_PASSWORD', 'Ser98245');
 
 /** nome do host do MySQL */
-define('DB_HOST', 'vwdb001.cji3psywkbki.sa-east-1.rds.amazonaws.com');
+// define('DB_HOST', 'vwdb001.cji3psywkbki.sa-east-1.rds.amazonaws.com');
+define('DB_HOST', 'mysql.visualworks.com.br');
 
 /** Conjunto de caracteres do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8mb4');
